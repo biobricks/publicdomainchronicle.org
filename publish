@@ -1,0 +1,1 @@
+make && rsync  --archive --compress --force --delete --progress --exclude '.git' --exclude publish build/ kyle@publicdomainchronicle.org:/var/www/publicdomainchronicle.org/
