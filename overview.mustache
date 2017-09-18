@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang=en>
+  {{>head}}
+  <body>
+    {{>header}}
+
+    {{>nav}}
+
+    <main>
+      <h1>About</h1>
+
+      <ul>
+        <li><a href=#for>What is the Public Domain Chronicle?</a></li>
+        <li><a href=#work>How does PDC work?</a></li>
+        <li><a href=#copyright>How does PDC address copyright?</a></li>
+        <li><a href=#patent>How does PDC address patent?</a></li>
+        <li><a href=#race>What&rsquo;s the &ldquo;race to the publisher&rdquo;?</a></li>
+      </ul>
+
+      <h2 id=for>What is the Distributed Bulletin of Open Science?</h2>
+
+      <p>{{>blurb}}</p>
+
+      <h2 id=work>How does PDC work?</h2>
+
+      <p>PDC gives contributors a <a href=/host/publish target=_blank>short online form</a> to fill out with information on new findings they want to contribute to the public domain.  PDC publishes submissions instantly and verifiably,  both to read online, and to download as well-structured computer data for indexing, searching, and backup.</p>
+
+      <p>Every PDC publication contains:</p>
+
+      <ul>
+        <li>a description of a new scientific finding</li>
+        <li>metadata to categorize and contextualize the finding</li>
+        <li>a <a href=/server/declaration target=_blank>public declaration</a> of commitment to contribute the finding to the public domain</li>
+        <li>a <a href=/server/license target=_blank>public license</a> for the content of the submission</li>
+      </ul>
+
+      <p>This common data format enables different PDC servers to republish each other&rsquo;s contributions, corroborating their dates and providing backup.</p>
+
+      <p>These elements work together to do as much as possible, as quickly, cheaply, and easily as possible, to put the finding in the public domain.</p>
+
+      <h2 id=copyright>How does PDC address copyright?</h2>
+      <!-- TODO: Mention database rights, mask rights, etc.? -->
+
+      <p>The <a href=/server/license target=_blank>public license</a> that contributors grant for their submissions gives everyone very broad permission to work with the data that PDC submission create.  The license is similar in scope to a dedication of copyright and similar rights to the public domain, with two conditions to prevent misrepresentation of what was submitted and abuse of the contributor&rsquo;s name.  That&rsquo;s enough to enable to copy, back up, translate, aggregate, and otherwise make the most of the data.</p>
+
+      <p>The license works much like <a href=https://creativecommons.org target=_blank>Creative Commons</a> licenses applied to other creative work, like article preprints, but far shorter, quicker to use, and specialized to PDC-style submissions.</p>
+      <!-- In fact, goes further, beyond copyright ... adderesses database rights ... obstacles to sharing -->
+
+      <h2 id=patent>How does PDC address patent?</h2>
+
+      <p>Some new findings may contain patent-eligible &ldquo;inventions&rdquo; under one or many countries&rsquo; laws.  When patents are a concern, PDC helps scientists win the patent race for the public domain by publishing, immediately and verifiably, with rich metadata that makes it easy to identify as &ldquo;prior art&rdquo; to stop later patent applications.  By combining publication with a <a href=/server/declaration target=_blank>commitment to keep the finding open</a> and a <a href=/server/license target=_blank>permissive copyright license for the submission</a>, PDC combines the expediency of defensive publication with the availability of open-access scholarship and the empowerment of open-source licensing.</p>
+
+      <h2 id=race>What's the &ldquo;race to the publisher&rdquo;?</h2>
+
+      <p>Under many countries&rsquo; patent rules, publishing a description that teaches others how to use a legal &ldquo;invention&rdquo; stops anyone, even the one publishing, from later receiving a patent.  Since the <a href=https://www.gpo.gov/fdsys/pkg/PLAW-112publ29/content-detail.html target=_blank>America Invents Act</a>, much the same is now true under United States patent rules, with an exception: the one who published can still receive a patent if they apply within one year.</p>
+
+      <p>Under either kind of rule, securing findings for the public domain is a race to publish.  If a patent-seeker applies for a patent or publishes first, a patent can keep the finding closed for twenty years or more.  If anyone contributes to the public domain first&mdash;creating &ldquo;prior art&rdquo; that others can find later&mdash;the work stays open, even if someone else made the same finding earlier.</p>
+
+      <p>PDC publications meet all the publication requirements for patent-stopping prior art under United States and European patent rules, as well as the rules of many other countries.  The <a href=/server/license target=_blank>public license</a> enables others to republish to meet other countries&rsquo; prior art requirements, such as publication in the country, or translation into the local language.</p>
+    </main>
+
+    {{>footer}}
+  </body>
+</html>

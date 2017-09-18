@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang=en>
+  {{>head}}
+  <body>
+    {{>header}}
+
+    {{>nav}}
+
+    <main>
+      <p>PDC combines aspects of a few existing institutions, with a few new elements.</p>
+
+      <table>
+        <thead>
+          <tr>
+            <td></td>
+            <th>PDC</th>
+            <th>Defensive Publication Service</th>
+            <th>Traditional Journal</th>
+            <th>Open Access Journal</th>
+            <th>Preprint Server</th>
+            <th>Patent Application</th>
+            <!--<th>Open License</th>-->
+            <th>Weblog</th>
+          </tr>
+        </thead>
+
+        <tbody>
+          <tr>
+            <th>Speed</th>
+            <td class=good>Instant</td>
+            <td class=medium>Fair</td>
+            <td class=medium>Fair</td>
+            <td class=medium>Fair</td>
+            <td class=good>Instant</td>
+            <td class=bad>Slow</td>
+            <!--<td class=good>Instant</td>-->
+            <td class=good>Instant</td>
+          </tr>
+          <tr>
+            <th>Search</th>
+            <td class=good>Good</td>
+            <td class=medium>Fair</td>
+            <td class=good>Good</td>
+            <td class=good>Good</td>
+            <td class=good>Good</td>
+            <td class=medium>Fair</td>
+            <!--<td class=medium>Fair</td>-->
+            <td class=good>Good</td>
+          </tr>
+          <tr>
+            <th>Metadata</th>
+            <td class=good>Rich</td>
+            <td class=bad>Minimal</td>
+            <td class=good>Rich</td>
+            <td class=good>Rich</td>
+            <td class=good>Rich</td>
+            <td class=good>Rich</td>
+            <!--<td class=bad>Minimal</td>-->
+            <td class=medium>Medium</td>
+          </tr>
+          <tr>
+            <th>Preparation</th>
+            <td class=good>Low</td>
+            <td class=good>Low</td>
+            <td class=medium>Fair</td>
+            <td class=medium>Fair</td>
+            <td class=medium>Fair</td>
+            <td class=bad>High</td>
+            <!--<td class=good>Low</td>-->
+            <td class=medium>Fair</td>
+          </tr>
+          <tr>
+            <th>Accessibility</th>
+            <td class=good>High</td>
+            <td class=bad>Low</td>
+            <td class=bad>Low</td>
+            <td class=good>High</td>
+            <td class=good>High</td>
+            <td class=good>High</td>
+            <!--<td class=good>High</td>-->
+            <td class=good>High</td>
+          </tr>
+          <tr>
+            <th>Review</th>
+            <td class=good>None</td>
+            <td class=good>None</td>
+            <td class=bad>Long</td>
+            <td class=bad>Long</td>
+            <td class=medium>Cursory</td>
+            <td class=bad>Long</td>
+            <!--<td class=good>None</td>-->
+            <td class=good>None</td>
+          </tr>
+          <tr>
+            <th>Cost</th>
+            <td class=good>Free</td>
+            <td class=medium>Medium</td>
+            <td class=medium>Medium</td>
+            <td class=medium>Medium</td>
+            <td class=good>Free</td>
+            <td class=bad>Expensive</td>
+            <!--<td class=good>Free</td>-->
+            <td class=good>Free</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <h3 id=defensive-publication>Defensive Publication Bulletin</h3>
+
+      <p>At a high level, PDC is probably closest to a &ldquo;defensive publication&rdquo; journal or bulletin, such as <a href=http://www.researchdisclosure.com/>Research Disclosure</a>.  Like a defensive publication bulletin, PDC accepts and publishes terse descriptions of new inventions.  These descriptions qualify as prior art, preventing later patent applications.  Unlike a defensive publication bulletin, PDC is free to use, free to access, and preserves richer metadata, making it easier to build effective search tools to find relevant records.</p>
+
+      <h3 id=traditional-journal>Traditional Journal</h3>
+
+      <p>PDC lets scientists describe their inventions in their own words, without translating into the legal language of patents or shoehorning into the house format of a print publication.  Scientific peers do not review PDC publications.  Unlike traditional journal articles, PDC publications are born digital and available to everyone, free of charge to anyone, with generous permission to copy, republish, aggregate, and adapt.</p>
+
+      <h3 id=open-access-journal>Open-Access Journal</h3>
+
+      <p>See the <a href=#traditional-journal>comparison to traditional journals</a>.</p>
+
+      <p>Unlike an open-access journal, DBOs publications are purpose-built to stop patents, optionally including metadata about relevant patent classifications.  PDC publication is also much faster than open-access publication, without peer review, formatting, or other manual work between submission and publication.  Finally, PDC publication data is much denser and easier to work with than most open-access publications.</p>
+
+      <h3 id=preprint-server>Preprint Server</h3>
+
+      <p>See the <a href=#traditional-journal>comparison to traditional journals</a> and <a href=#open-access-journal>comparison to open-access journals</a>.</p>
+
+      <p>Preprint servers like <a href=http://biorxiv.org target=_blank>bioR&#x1D712;iv</a> combine nearly-instant publication with rich metadata and searchability.  Some servers offer an easy way to apply a permissive copyright license, such as a <a href=https://creativecommons.org>Creative Commons</a> license.  However, preprints are still prepared in the format and style of academic publications, and shared in bulky, difficult-to-process PDF format.</p>
+
+      <h3 id=patent-application>Patent Application</h3>
+
+      <p>Patent applications ask the government to grant patents, but those who receive patents can choose to dedicate them to the public domain.  PDC publications stop patents from being enforced on inventions by preventing patents from being granted in the first place, like the old defensive publication and statutory invention registration procedures.  Preparing a PDC publication is much faster, easier, and cheaper than preparing a patent application, without the need to translate into the peculiar, legal language of patents, format for submission, or interface with a regimented bureaucratic process.  PDC publications appear immediately, worldwide.  Inventors can still claim credit for their inventions, but may also submit anonymously.</p>
+
+      <!--
+      <h3 id=open-license>Open License</h3>
+
+      <p>Like an open license, PDC publications give the public broad permissions and open materials and ideas by bringing legal terms and scientific materials together in digital form, on the Internet.  Unlike an open license, however, PDC publications are born as well structured data, rich in useful metadata.  In this way, PDC offers many of the benefits of combining open creative work with an open license, an Internet-based repository, and a metadata standard like <a href=https://spdx.org>Software Package Data eXchange</a>, a <a href=https://docs.npmjs.com/files/package.json>software package file standard</a>, or <a href=https://www.w3.org/Submission/ccREL/>ccREL</a>.</p>
+      -->
+
+      <h3 id=weblog>Weblog</h3>
+
+      <p>Like a weblog, PDC allows scientists to publish to the Internet instantaneously, in a format with few inconvenient constraints, and opportunity to categorize and link their disclosures for context.  Bloggers may also choose to apply open licenses to their posts.  PDC publications offer the advantages of good, structured, machine-readable data on top of the searchability that general Internet search engines provide.  The standard format of PDC publications, as well as their public licenses and cryptographic features, allow others to syndicate, index, aggregate, and archive them, efficiently and reliably.</p>
+    </main>
+
+    {{>footer}}
+  </body>
+</html>

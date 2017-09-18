@@ -20,7 +20,7 @@ main {
   display: inline-block;
   margin: 0 auto;
   padding-bottom: 5rem;
-  padding-top: 1rem;
+  padding-top: 0.5rem;
   text-align: left;
   vertical-align: top;
 }
@@ -74,35 +74,30 @@ header {
   width: 100%;
 }
 
-footer[role=contentinfo] {
-  background-color: rgb(68, 68, 68);
-  bottom: 0;
-  color: white;
-  font-size: 80%;
-  left: 0;
-  margin: 1rem auto 0 auto;
-  padding: 3rem 0;
-  position: absolute;
-  text-align: right;
-  width: 100%;
-}
-
 h1, h2, h3, h4, h5, h6 {
   color: #515151;
   font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
 }
 
-footer[role=contentinfo] section {
+footer[role=contentinfo] {
+  background-color: #eee;
+  color: white;
+  font-size: 80%;
+  margin: 1rem auto 0 auto;
+  padding-top: 1rem;
   text-align: right;
+  width: 100%;
 }
 
-.copyright {
+footer[role=contentinfo] section {
   color: rgb(102, 102, 102);
-  display: block;
   margin: 0 auto;
-  padding: 1rem 0;
+  padding: 0 0 1rem 0;
   text-align: center;
-  max-width: 100%;
+}
+
+footer[role=contentinfo] section p {
+  text-align: right;
 }
 
 table {
