@@ -1,0 +1,127 @@
+body {
+  font-family: "Open Sans", Arial, sans-serif;
+  font-family: sans-serif;
+  font-weight: 500;
+  line-height: 1.7em;
+  text-align: center;
+}
+
+main {
+  border-right: 1px solid #eee;
+  color: rgb(102, 102, 102);
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 40rem;
+  padding-bottom: 5rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+main p {
+  color: rgb(102, 102, 102);
+  font-family: "PT Sans", Helvetica, Arial, Lucida, sans-serif;
+}
+
+nav {
+  display: inline-block;
+  height: 100%;
+  max-width: 10rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 1rem 0 1rem 2rem;
+}
+
+nav a {
+  color: #777;
+  text-transform: uppercase;
+}
+
+nav a:hover {
+  color: rgb(88, 175, 54);
+}
+
+header {
+  border-bottom: 1px solid #eee;
+  padding: 0.5rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+footer[role=contentinfo] {
+  background-color: rgb(68, 68, 68);
+  color: white;
+  font-size: 80%;
+  margin: 1rem auto 0 auto;
+  padding: 3rem 0;
+  position: relative;
+  text-align: center;
+  vertical-align: top;
+  width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #515151;
+  font-family: 'Roboto', Helvetica, Arial, Lucida, sans-serif;
+}
+
+.copyright {
+  background-color: #2e2e2e;
+  color: rgb(102, 102, 102);
+  display: block;
+  margin: 0;
+  padding: 1rem 0;
+  text-align: center;
+  width: 100%;
+}
+
+.copyright p {
+  font-size: 85%;
+  margin: 0 auto;
+  text-align: left;
+  width: 50rem;
+}
+
+table {
+  text-align: left;
+  width: 100%;
+}
+
+table thead {
+  vertical-align: bottom;
+}
+
+td {
+  vertical-align: top;
+}
+
+.good {
+  background-color: rgb(200,255, 200);
+}
+
+.medium {
+  background-color: rgb(255, 255, 170);
+}
+
+.bad {
+  background-color: rgb(255, 200, 200);
+}
+
+li {
+  margin-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.logo {
+  height: 5rem;
+}
+
+a {
+  color: #2ea3f2;
+  text-decoration: none;
+}
