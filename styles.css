@@ -1,8 +1,10 @@
-html {
+html, body {
   height: 100%;
 }
 
 body {
+  display: flex;
+  flex-direction: column;
   font-family: "Open Sans", Arial, sans-serif;
   font-family: sans-serif;
   font-weight: 500;
@@ -16,6 +18,7 @@ footer[role=contentinfo] section {
 }
 
 main {
+  flex: 1 0 auto;
   color: rgb(102, 102, 102);
   display: inline-block;
   margin: 0 auto;
@@ -80,7 +83,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 footer[role=contentinfo] {
-  background-color: #eee;
+  background: #eee;
   color: white;
   font-size: 80%;
   margin: 1rem auto 0 auto;
