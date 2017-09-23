@@ -141,3 +141,24 @@ a {
   color: #2ea3f2;
   text-decoration: none;
 }
+
+.contribute {
+  text-align: center;
+}
+
+.contribute button {
+  background: rgb(108, 195, 74);
+  border-radius: 1rem;
+  border: 1px solid ;
+  color: white;
+  cursor: pointer;
+  margin: 1rem auto;
+  padding: 1rem;
+  text-align: center;
+  text-decoration: none;
+}
+
+.contribute button:hover {
+  background: rgb(88, 175, 54);
+  color: white;
+}
