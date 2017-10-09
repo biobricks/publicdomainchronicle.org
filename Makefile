@@ -1,6 +1,6 @@
 PAGES=$(wildcard *.mustache)
 STYLES=$(wildcard *.css)
-IMAGES=$(wildcard *.svg)
+IMAGES=$(wildcard *.svg) $(wildcard *.png)
 BUILD=build
 MUSTACHE=node_modules/.bin/mustache
 PARTIALS=$(wildcard partials/*.mustache)
@@ -14,6 +14,9 @@ $(BUILD)/%.css: %.css
 	cp $< $@
 
 $(BUILD)/%.svg: %.svg
+	cp $< $@
+
+$(BUILD)/%.png: %.png
 	cp $< $@
 
 $(BUILD):
