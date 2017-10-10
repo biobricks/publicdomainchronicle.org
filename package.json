@@ -1,7 +1,8 @@
 {
   "private": true,
   "devDependencies": {
-    "mustache": "^2.3.0"
+    "mustache": "^2.3.0",
+    "pdc-network": "^2.0.0"
   },
   "scripts": {
     "build": "make"

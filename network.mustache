@@ -10,8 +10,29 @@
       <h2>Servers</h2>
 
       <ul>
-        <li><a href=https://publicdomainchronicle.org/server/publish target=_blank>publicdomainchronicle.org</a>, for contributions of all kinds</li>
-        <li><a href=https://pdc.biobricks.org/publish target=_blank>pdc.biobricks.org</a>, for synthetic biology</li>
+        {{#network}}
+        <li>
+          {{#server}}
+          <a
+              href="{{website}}"
+              target=_blank
+            >{{short}}</a>
+          <p>
+            For
+            {{#fields}}{{.}}{{/fields}}{{^fields}}contributions in all fields{{/fields}}
+          </p>
+          {{#host}}
+          <p>
+            Hosted by
+            <a
+                href="{{website}}"
+                target=_blank
+              >{{name}}</a>
+          </p>
+          {{/host}}
+          {{/server}}
+        </li>
+        {{/network}}
       </ul>
 
       <aside><p>To add your server to this list, <a href="mailto:network@publicdomainchronicle.org">send us an e-mail</a>.</p></aside>

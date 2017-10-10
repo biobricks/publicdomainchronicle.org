@@ -7,8 +7,14 @@ PARTIALS=$(wildcard partials/*.mustache)
 
 all: $(addprefix $(BUILD)/,$(PAGES:.mustache=.html)) $(addprefix $(BUILD)/,$(STYLES)) $(addprefix $(BUILD)/,$(IMAGES))
 
-$(BUILD)/%.html: %.mustache %.json $(PARTIALS) | $(MUSTACHE) $(BUILD)
-	$(MUSTACHE) $(addprefix -p ,$(PARTIALS)) $*.json $< > $@
+$(BUILD)/%.html: %.mustache $(BUILD)/%.json $(PARTIALS) | $(MUSTACHE) $(BUILD)
+	$(MUSTACHE) $(addprefix -p ,$(PARTIALS)) $(BUILD)/$*.json $< > $@
+
+$(BUILD)/%.json: %.json
+	cp $< $@
+
+$(BUILD)/%.json: %.js
+	node $< > $@
 
 $(BUILD)/%.css: %.css
 	cp $< $@
