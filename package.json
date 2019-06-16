@@ -1,7 +1,7 @@
 {
   "private": true,
   "devDependencies": {
-    "mustache": "^2.3.0",
+    "mustache": "^3.0.1",
     "pdc-network": "^2.0.0"
   },
   "scripts": {
